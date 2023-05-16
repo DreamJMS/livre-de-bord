@@ -1,0 +1,16 @@
+footer {
+    padding: 2% 0 1% 0;
+    background-color: $five;
+    h6 {
+        color: $two;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: $title;
+    }
+    @media screen and (max-width: 780px) {
+        padding: 6% 0 4% 0 !important;
+    }
+    @media screen and (max-width: 1024px) {
+        padding: 3% 0 3% 0;
+    }
+}

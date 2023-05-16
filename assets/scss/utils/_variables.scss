@@ -1,0 +1,16 @@
+$title: 'Merriweather', serif;
+$text: 'Rajdhani', sans-serif;
+
+.title {
+    font-family: $title;
+}
+.text {
+    font-family: $text;
+}
+
+img {
+    object-fit: cover;
+}
+.bg-navbar {
+    background-color: #5c3d2783;
+}

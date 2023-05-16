@@ -1,0 +1,31 @@
+#header {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.header {
+    height: 100vh;
+    background-image: url("../../assets/img/bg/bg-desktop.png");
+    @media screen and (max-width: 380px) {
+        height: 125vh;
+    }
+}
+.header-second {
+    height: 100vh;
+    background-image: url("../../assets/img/bg/bg-desktop-second.png");
+    .bg-home-second {
+        @media screen and (max-width: 780px){
+            padding-top: 26% !important; 
+        }
+        @media screen and (max-width: 1024px) {
+            padding-top: 38%;
+        }
+    }
+}
+.header-third {
+    background-color: $three;
+    .h1 {
+        color: $one;
+    }
+}

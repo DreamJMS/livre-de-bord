@@ -1,0 +1,89 @@
+header {
+    .navbar {
+        .navbar-brand {
+            color: $four;
+            font-size: 18px;
+            font-weight: 800;
+            letter-spacing: 2px;
+            font-family: $title;
+        }
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    color: $two;
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-family: $text;
+                }
+                .dropdown-menu.show {
+                    border: none;
+                    padding: 0px;
+                    border-radius: 0px;
+                    background-color: #5c3d2783;
+                    .dropdown-item {
+                        color: $two;
+                        font-size: 18px;
+                        font-weight: 500;
+                        font-family: $text;
+                        &:hover,
+                        &:active {
+                            background-color: transparent;
+                        }
+                    }
+                }
+                .menu-one {
+                    margin: 3.2% 0 4% 0;
+                    @media screen and (max-width: 991px) {
+                        margin: 0%;
+                    }
+                }
+                .menu-two {
+                    margin: 6.6% 0 4% 0;
+                    @media screen and (max-width: 991px) {
+                        margin: 0% 0 2% 0;
+                    }
+                }
+            }
+        }
+        .navbar-toggler {
+            .icon-navbar {
+                @media screen and (max-width: 991px) {
+                    color: $two;
+                }
+            }
+        }
+    }
+    .bg-home {
+        padding: 15% 0% 20% 0%;
+        @media screen and (max-width: 1280px) {
+            padding-top: 20%;
+        }
+        h1,
+        p {
+            color: $two;
+        }
+        h1 {
+            @media screen and (max-width: 780px) {
+                font-size: 30px !important;
+            }
+            @media screen and (max-width: 1024px) {
+                font-size: 35px;
+                line-height: 45px;
+            }
+        }
+    }
+    .bg-home-one {
+        .h1 {
+            @media screen and (max-width: 380px) {
+                line-height: 35px;
+                font-size: 28px !important;
+            } 
+        }
+        @media screen and (max-width: 780px) {
+            padding-top: 38% !important;
+        }
+        @media screen and (max-width: 1024px) {
+            padding-top: 40%;
+        }
+    }
+}

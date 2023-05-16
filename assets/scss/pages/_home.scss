@@ -1,0 +1,28 @@
+.pitch {
+    background-color: $three;
+    .ic-m {
+        i {
+            color: $two;
+        }
+    }
+    h4 {
+        font-size: 24px !important;
+        font-weight: 600;
+        margin: 20px 0 20px 0;
+        text-transform: uppercase;
+    }
+    .school {
+        color: $four;
+        font-weight: 500;
+        margin: 10px 0 10px 0;
+        font-family: $title;
+    }
+    .list {
+        margin-top: 2%;
+    }
+}
+.document {
+    img {
+        width: 100%;
+    }
+}

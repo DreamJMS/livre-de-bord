@@ -1,0 +1,52 @@
+.title {
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 75px;
+    font-family: $title;
+    @media screen and (max-width: 780px) {
+        font-size: 30px !important;
+    }
+    @media screen and (max-width: 1024px) {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
+p {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: $text;
+    @media screen and (max-width: 780px) {
+        font-size: 18px;
+    }
+}
+.list {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: $text;
+    .icon-list {
+        i {
+            font-size: 9px;
+            color: $five;
+        }
+    }
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.divider {
+    max-width: 10rem;
+    margin: 2rem auto;
+    height: 4px !important;
+    background-color: $one;
+    opacity: 1;
+}
+.bilan,
+.pitch,
+.document,
+.projet-pro {
+    padding: 5% 0 5% 0;
+    @media screen and (max-width: 780px) {
+        padding: 10% 0 10% 0;
+    }
+}
